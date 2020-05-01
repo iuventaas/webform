@@ -1,0 +1,11 @@
+
+
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="add" />
+</form>
+
+<form action="show" method="post">
+    <input type="submit" value="show" />
+</form>
