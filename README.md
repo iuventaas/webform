@@ -1,4 +1,4 @@
-cd redis_web 
+cd webform_redis
 docker-compose build 
 docker-compose up
 
