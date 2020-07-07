@@ -38,7 +38,7 @@ def show(request):
     elements = r.hgetall(user)
     positions = []
     for key in elements:
-        positions.append(Position(key, elements[key]))
+        positions.append(Position(key[2:-1], elements[key][2:-1]))
 
     return render(request, 'web/show.html', {'positions': positions})
 
