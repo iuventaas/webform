@@ -1,5 +1,3 @@
-Якубовская, задание 7
-
 docker-compose build 
 docker-compose up
 
